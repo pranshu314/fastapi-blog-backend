@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapi-blog-backend"
+version = "0.1.0"
+description = "A backend api for a blog written in fastapi"
+authors = ["Pranshu <pranshu2.71828@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+python-slugify = "^8.0.4"
+passlib = "^1.7.4"
+python-jose = "^3.3.0"
+pydantic = "^2.7.1"
+python-dotenv = "^1.0.1"
+pymongo = "^4.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
