@@ -5,3 +5,5 @@ An API for a blogging app backend/server
 - Copy the .env.example with the name .env
 - Add the actual values to the .env file
 - Run the command ```make app```
+
+###### You can check the api routes (in swagger ui) by going to ```localhost:8080/docs```
